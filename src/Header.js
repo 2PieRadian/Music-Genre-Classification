@@ -25,7 +25,7 @@ export default function Header() {
             modern EDM.
           </p>
         </div>
-      </div>ś
+      </div>
 
       <UploadFile />
     </div>

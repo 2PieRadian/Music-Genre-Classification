@@ -31,7 +31,11 @@
     color: var(--what-it-does);
     font-weight: 900;
     letter-spacing: 4px;
-}ś
+}
+
+ul {
+    display: flex;
+}
 
 ul li {
     list-style: none;
@@ -85,6 +89,7 @@ ul li a {
 .c {
     color: rgb(175, 175, 175);
 }
+
 .header h1 {
     font-size: clamp(30px, 4vw, 50px);
 }
