@@ -64,7 +64,7 @@ ul li a {
 /* Header */
 .header {
     background: url('./violin.jpg');
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     padding: clamp(1.5rem, 4vw, 70px) clamp(1.6rem, 5vw, 85px);
@@ -114,11 +114,12 @@ ul li a {
     left: 0;
     height: 10px;
     width: 10px;
-    box-shadow: 0px 0px 1300px 100px rgb(255, 255, 255);
+    box-shadow: 0px 0px 1500px 190px rgba(255, 255, 255, 0.485);
     opacity: .8;
     border-radius: 50%;
     animation: move 7s ease-in-out infinite;
 }
+
 @keyframes move {
     0% {transform: translateX(0)}
 
@@ -165,7 +166,7 @@ ul li a {
     margin: 2rem auto;
     border-radius: 50px;
     border: 1px solid rgb(45, 45, 45);
-    padding-left: 50px;
+    padding-left: 2rem;
     width: 100%;
 }
 .uploadFile p {
@@ -202,6 +203,19 @@ input[type="file"] {
         width: 100%;
     }
     html {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    label {
+        padding: 15px;
+    }
+    ul {
+        align-items: center;
+    }
+    ul li {
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+    nav {
+        height: 50px;
     }
 }
